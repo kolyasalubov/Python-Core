@@ -15,3 +15,10 @@ height = input("Your height")
 base = input("Your base")
 print(1.2 * int(height) * int(base))
 
+################################
+a= input("Input number a:")
+b= input("Input number b:")
+
+a,b=b,a
+print(a,b)
+
